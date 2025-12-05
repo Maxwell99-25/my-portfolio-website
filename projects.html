@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projects.css"/>
+</head>
+<body>
+      <header>
+        <nav>
+            <div class="logo">Max.Dev</div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="skills.html">Skills</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+            </ul>
+             <div id="hamburger" class="hamburger3">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main class="main-project">
+        <section class="projects-listing">
+          <div class="project-box">
+            <h2><strong>Random Joke App</strong></h2>
+            <p class="description">This is a simple web app that fetches random jokes from a free joke API and displays them on the page It was built using HTML,CSS and JavaScript.</p>
+          </div>
+         <div class="project-box">
+            <h2><strong>Expense tracker.</strong></h2>
+            <p class="description">An app that help user track their spendings,It was built using HTML,CSS and JavaScript. </p>
+          </div>
+          <div class="project-box">
+            <h2><strong>Kota-Lab E-commerce Store.</strong></h2>
+            <p class="description">An E-commerce store where kota are being sold,It was built using HTML,CSS(Flexbox & Grid) and JavaScript. </p>
+          </div>
+        </section>
+    </main>
+    <script>
+        const hamburgerIcon=document.querySelector('.hamburger3');
+        const navMenu=document.querySelector('.navbar');
+        hamburgerIcon.addEventListener('click',()=>{
+        navMenu.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>

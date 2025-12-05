@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css"/>
+</head>
+<body>
+    <h1 id="heading1">Contact details.</h1>
+     <header>
+        <nav>
+            <div class="logo">Max.Dev</div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                 <li><a href="skills.html">Skills</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+            </ul>
+             <div id="hamburger" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    
+    </header>
+    <main class="contact-infor">
+     <section class="contact-section">
+        <div class="contact-details">
+        <h1>Contact</h1>
+        <p>Need to get with me? Please i'd love  to hear from you <br> please reach out to me using the details below.</p>
+        <h3>Email</h3>
+        <p>nsovo642@gmail.com</p>
+        <h3>Phone</h3>
+        <p>+27637125328</p>
+        </div>
+     </section>
+    </main>
+    <script>
+        const hamburger=document.querySelector('.hamburger');
+        const navMenu=document.querySelector('.navbar');
+        hamburger.addEventListener('click',()=>{
+       navMenu.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
