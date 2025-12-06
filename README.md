@@ -3,8 +3,13 @@ Personal Portfolio website
 A clean and responsive personal portfolio website built using HTML, CSS, and JavaScript.
 The website features a simple navigation bar with three main sections—Home, Skills, and Projects—along with two action buttons: Contact and Resume (with View and Download options).
 
+🔗 Live Demo
 
----
+You can view the live deployed version of the portfolio here:
+
+👉 Live Website:
+
+https://maxwell99-25.github.io/My-Portfolio-website/
 
 📁 Sections
 
